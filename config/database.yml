@@ -1,7 +1,10 @@
 development:
   adapter: mysql2
-  database: blogapp_development
-  username: root
+  database: blogapp
+  username: admin
+  host: blogapp.csudrfkkycq3.us-west-2.rds.amazonaws.com
+  password: Tlqkfsja1
+  port: 3306
   pool: 5
   timeout: 5000
 
